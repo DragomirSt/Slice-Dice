@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url('/src/static/images/background-image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-start {
+    width: 100%;
+    height: 550px;
+    background-color: #0f0f0fee;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    background-color: #0505059d;
+}
+
+.navigation>img {
+    margin: 15px 110px;
+}
+
+.navigation>div>a {
+    color: white;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.navigation>div>a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.anchor-tags {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+.page-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 150px;
+    font-size: 25px;
+    font-family: italic;
+}
+
+.page-info>div {
+    color: white;
+}
+
+.page-info>em {
+    padding-top: 5px;
+    color: white;
+}
+
+.log-container {
+    display: flex;
+}
+
+.login {
+    width: 50%;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: 18px;
+    background-color: #05445E;
+    color: white;
+}
+
+.register {
+    width: 50%;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: 18px;
+    background-color: rgba(63, 119, 63, 0.808);
+    color: white;
+}
+
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    background-color: white;
+}
+
+.about-us-info {
+    width: 360px;
+    height: auto;
+}
+
+.about-us-info>h1 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-us-info>p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.05em;
+    color: grey;
+    margin: 10px;
+    padding: 10px;
+    font-size: 19px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    text-align: center;
+}
+
+.team>div {
+    padding: 15px;
+    margin: 15px;
+}
+
+.team>div>img {
+    border-radius: 50%;
+    border-style: outset;
+    border-color: gray;
+}
+
+.team>div>a {
+    margin: 10px;
+    padding: 10p;
+}
+
+.team>div>p {
+    color: grey;
+}
+
+.carousel {
+    position: relative;
+    background-image: url('/src/static/images/background-image.jpg');
+    background-size: cover;
+    height: 200px;
+}
+
+.carousel-content>p {
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.carousel-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 20px;
+    height: 180px;
+    display: none;
+    text-align: center;
+    background-color: #0e0d0dd7;
+    color: white;
+}
+
+.carousel-nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.carousel-button {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.37);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.carousel-button-selected {
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 45px;
+    padding: 10px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+}
+
+.offers>div {
+    width: 180px;
+}
+
+.offers>div>p {
+    color: gray;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.05em;
+    font-size: 19px;
+}
+
+.company-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.designed-by {
+    width: 220px;
+    padding: 15px;
+    margin: 15px;
+
+}
+
+.designed-by>p {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.05em;
+    color: rgba(255, 255, 240, 0.322);
+}
+
+.company-links {
+    display: flex;
+    padding: 15px;
+    width: 295px;
+
+}
+
+.links-column {
+    flex: 50%;
+    padding: 10px;
+    color: rgba(255, 255, 240, 0.322);
+}
+
+.links-column>hr {
+    border: none;
+}
+
+.links-column>a:hover {
+    color: white;
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.company-links>a {
+    color: rgba(255, 255, 240, 0.322);
+}
+
+.contact-info {
+    margin: 20px;
+    padding: 20px;
+    width: 275px;
+}
+
+.contact-info>p {
+    color: rgba(255, 255, 240, 0.322);
+}
+
+.designer-name {
+    display: inline;
+    color: rgba(255, 255, 240, 0.322);
+}
